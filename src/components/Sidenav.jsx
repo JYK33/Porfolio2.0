@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineProject } from 'react-icons/ai';
 import {GrProjects} from 'react-icons/gr'
-import {BsEnvelopeOpen, BsFileEarmarkPerson, BsFillMenuButtonWideFill} from 'react-icons/bs'
+import {BsEnvelopeOpen, BsFileEarmarkPerson} from 'react-icons/bs'
 
 const Sidenav = () => {
 
