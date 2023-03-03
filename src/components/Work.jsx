@@ -3,40 +3,42 @@ import WorkItem from "./WorkItem"
 
 const data = [
   {
-    year: "xxxx",
-    title: "xxxx",
+    year: "xxxx ",
+    title: "yyyy ",
     duration: "x years",
-    deatils: "lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
+    details: "1---lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
   },
   {
-    year: "xxxx",
-    title: "xxxx",
+    year: "xxxx ",
+    title: "yyyy ",
     duration: "x years",
-    details: "lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
+    details: "2---lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
   },
   {
-    year: "xxxx",
-    title: "xxxx",
+    year: "xxxx ",
+    title: "yyyy ",
     duration: "x years",
-    details: "lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
+    details: "3---lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
   },
   {
-    year: "xxxx",
-    title: "xxxx",
+    year: "xxxx ",
+    title: "yyyy ",
     duration: "x years",
-    details: "lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
+    details: "4---lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
   },
   {
-    year: "xxxx",
-    title: "xxxx",
+    year: "xxxx ",
+    title: "yyyy ",
     duration: "x years",
-    details: "lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
+    details: "5---lorem Ipsum, dolor sit amet consectetur adipiscing elit.",
   },
 ];
 
 const Work = () => {
-  return <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-black/50">
-    <h1 className="text-white text-4xl font-bold text-center">Work</h1>
+  // try to change color of back ground here ?
+  return <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    {/* change color of text here */}
+    <h1 className="text-black text-4xl font-bold text-center">Work</h1>
     {data.map((item, idx) => (
         <WorkItem 
         key ={idx} 
