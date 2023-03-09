@@ -15,17 +15,17 @@ const Main = () => {
         
         {/* Type Animation for introduction */}
         <div className=" text-white max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold">I'm John Kang</h1>
-          <h2 className="flex sm:text-3xl test-2xl pt-4">
-            I'm a
+          <h1 className="sm:text-5xl text-5xl font-bold">Welcome To My Portfolio</h1>
+          <h2 className="flex sm:text-4xl test-2xl pt-4">
+            Learn More About
             <TypeAnimation
               sequence={[
-                "Coder", // Types 'One'
-                2000, // Waits 1s
-                "Developer", // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
-                "Tech Enthusiast",
-                2000,
+                "Me", // Types 'One'
+                2500, // Waits 1s
+                "My Work Experience", // Deletes 'One' and types 'Two'
+                2500, // Waits 2s
+                "My Projects",
+                2500,
               ]}
               wrapper="div"
               cursor={true}
@@ -35,10 +35,10 @@ const Main = () => {
           </h2>
           {/* incons for my social media */}
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaGithub className="cursor-pointer" size={20}/>
-            <FaLinkedin className="cursor-pointer" size={20}/>
-            <FaInstagram className="cursor-pointer" size={20}/>
-            <FaFacebookF className="cursor-pointer" size={20}/>
+            <FaGithub className="cursor-pointer" size={30}/>
+            <FaLinkedin className="cursor-pointer" size={30}/>
+            <FaInstagram className="cursor-pointer" size={30}/>
+            <FaFacebookF className="cursor-pointer" size={30}/>
           </div>
         </div>
       </div>
