@@ -1,10 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import tuneinImg from "../assets/tune-in.jpg";
 import tuneinImg2 from "../assets/tuneinTest2.jpg";
 import susImg from "../assets/sus.jpg";
 import quizImg from "../assets/quiz.jpg";
-import noteImg from "../assets/note-taker.jpg";
 import noteImg2 from "../assets/note-taker2.jpg";
 
 const Projects = () => {
