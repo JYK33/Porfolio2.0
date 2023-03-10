@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="py-4 text-4xl font-bold text-center text-black ">
-        Contact
+        CONTACT
       </h1>
       <form
         action="https://getform.io/f/d2837bf1-4254-497e-9858-d3ab280e5256"

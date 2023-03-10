@@ -8,7 +8,7 @@ import noteImg2 from "../assets/note-taker2.jpg";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-black">Projects</h1>
+      <h1 className="text-4xl font-bold text-center text-black">PROJECTS</h1>
       <p className="text-center py-8 ">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
         assumenda.{" "}
