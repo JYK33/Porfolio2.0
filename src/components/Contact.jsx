@@ -6,29 +6,56 @@ const Contact = () => {
       <h1 className="py-4 text-4xl font-bold text-center text-black ">
         Contact
       </h1>
-      <form action="" method="POST" encType="multipart/form-data">
-        <div>
-          <div>
-            <label>Name</label>
-            <input type="text" name="name" />
+      <form
+        action="https://getform.io/f/d2837bf1-4254-497e-9858-d3ab280e5256"
+        method="POST"
+        encType="multipart/form-data"
+      >
+        <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+          <div className="flex flex-col">
+            <label className="uppercase text-sm py-2">Name</label>
+            <input
+              className="border-2 rounded-lg p-3 flex border-black"
+              type="text"
+              name="name"
+            />
           </div>
-          <div>
-            <label>Phone Number</label>
-            <input type="text" name="phone" />
+          <div className="flex flex-col">
+            <label className="uppercase text-sm py-2">Phone</label>
+            <input
+              className="border-2 rounded-lg p-3 flex border-black"
+              type="text"
+              name="phone"
+            />
           </div>
         </div>
-        <div>
-          <label>Email</label>
-          <input type="email" name="email" />
+        <div className="flex flex-col py-2">
+          <label className="uppercase text-sm py-2">Email</label>
+          <input
+            className="border-2 rounded-lg p-3 flex border-black"
+            type="email"
+            name="email"
+          />
         </div>
-        <div>
-          <label>Subject</label>
-          <input type="text" name="subject" />
+        <div className="flex flex-col py-2">
+          <label className="uppercase text-sm py-2">Subject</label>
+          <input
+            className="border-2 rounded-lg p-3 flex border-black"
+            type="text"
+            name="subject"
+          />
         </div>
-        <div>
-          <label>Message</label>
-          <input type="text" name="message" />
+        <div className="flex flex-col py-2">
+          <label className="uppercase text-sm py-2">Message</label>
+          <textarea
+            className="border-2 rounded-lg p-3 border-black"
+            rows="10"
+            name="message"
+          ></textarea>
         </div>
+        <button className="bg-black text-white rounded-lg mt-4 w-full p-4 ">
+          Submit
+        </button>
       </form>
     </div>
   );
