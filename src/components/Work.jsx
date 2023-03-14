@@ -1,5 +1,5 @@
 import React from "react";
-import WorkItem from "./WorkItem"
+import WorkItem from "./WorkItem";
 
 const data = [
   {
@@ -34,22 +34,23 @@ const data = [
   },
 ];
 
+// try to change color of back ground here ?
 const Work = () => {
-  // try to change color of back ground here ?
-  return <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-    {/* change color of text here */}
-    <h1 className="text-black text-4xl font-bold text-center mb-5">WORK</h1>
-    {data.map((item, idx) => (
-        <WorkItem 
-        key ={idx} 
-        year ={item.year} 
-        title ={item.title} 
-        duration = {item.duration} 
-        details={item.details} 
+  return (
+    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+      {/* change color of text here */}
+      <h1 className="text-black text-4xl font-bold text-center mb-5">WORK</h1>
+      {data.map((item, idx) => (
+        <WorkItem
+          key={idx}
+          year={item.year}
+          title={item.title}
+          duration={item.duration}
+          details={item.details}
         />
-    ))}
-  </div>;
-  
+      ))}
+    </div>
+  );
 };
 
 export default Work;
