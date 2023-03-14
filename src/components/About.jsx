@@ -24,15 +24,17 @@ const About = () => {
           </h2>
 
           <p className="text-black mb-9 mx-28 text-base leading-relaxed text-center">
-            I'm a web developer specializing in HTML, CSS, Javascript, MySQL,
-            and React. As a former UX and motion graphic designer, I have a
-            strong understanding of user experience and how to capture user's
-            attention. In my past experience, I have collaborated with a team of
-            developers as well as strategists to create a interactive engagement
-            unit for various brands' ad campaigns. I've also managed a team of
-            designers and have worked in the tech industry for over 6 years.
-            Now, as a passionate student, I'm currently looking for new
-            opportunities to grow in the tech industry as a developer.
+            I am a web developer based in Irvine, California. I
+            specialize in creating seamless user experiences that solve complex
+            problems and drive results. With proficiency in frameworks and
+            programming languages such as [List the frameworks and languages you
+            know], I have built several projects that showcase my ability to
+            create responsive, dynamic, and interactive web applications. I also
+            have a strong eye for design and believe in creating websites that
+            are not only aesthetically pleasing but also function intuitively.
+            If you're looking for a web developer to bring your website vision
+            to life, please take a look at my portfolio and feel free to contact
+            me.
           </p>
 
           <div className="flex justify-center">
