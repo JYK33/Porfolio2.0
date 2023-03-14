@@ -1,6 +1,6 @@
 import React,{ useState } from "react";
 import Sidenav from "./components/Sidenav";
-import Main from "./components/Main";
+import Main from "./components/Home";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
