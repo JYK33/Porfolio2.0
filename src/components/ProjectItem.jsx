@@ -8,9 +8,6 @@ const ProjectItem = ({ img, title }) => {
         <h3 className="text-2xl font-bold text-black tracking-wider text-center">
             {title}
         </h3>
-        <a href="/">
-          <p className="text-center p-3 m-3 rounded-lg bg-white text-black cursor-pointer text-lg">More Info</p>
-        </a>
       </div>
     </div>
   );

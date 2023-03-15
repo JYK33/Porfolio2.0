@@ -1,5 +1,5 @@
 import React from "react";
-
+import profile from "../assets/pf.jpg";
 const About = () => {
   return (
     <div id="about">
@@ -13,8 +13,8 @@ const About = () => {
 
           <div className="flex flex-wrap -space-x-3 overflow-hidden content-center justify-evenly mb-10">
             <img
-              className="inline-block h-40 w-40 rounded-full ring-2 ring-white"
-              // src= {imgUrl}
+              className="inline-block h-60 w-55 rounded-lg ring-2 ring-white"
+              src={profile}
               alt="myphoto"
             />
           </div>
@@ -24,17 +24,16 @@ const About = () => {
           </h2>
 
           <p className="text-black mb-9 mx-28 text-base leading-relaxed text-center">
-            I am a web developer based in Irvine, California. I
-            specialize in creating seamless user experiences that solve complex
-            problems and drive results. With proficiency in frameworks and
-            programming languages such as [List the frameworks and languages you
-            know], I have built several projects that showcase my ability to
-            create responsive, dynamic, and interactive web applications. I also
-            have a strong eye for design and believe in creating websites that
-            are not only aesthetically pleasing but also function intuitively.
-            If you're looking for a web developer to bring your website vision
-            to life, please take a look at my portfolio and feel free to contact
-            me.
+            I am a web developer based in Irvine, California. I specialize in
+            creating seamless user experiences that solve complex problems and
+            drive results. With proficiency in frameworks and programming
+            languages such as HTML, CSS, JavaScript, React, Node, Express I have
+            built several projects that showcase my ability to create
+            responsive, dynamic, and interactive web applications. I also have a
+            strong eye for design and believe in creating websites that are not
+            only aesthetically pleasing but also function intuitively. If you're
+            looking for a web developer to bring your website vision to life,
+            please take a look at my portfolio and feel free to contact me.
           </p>
 
           <div className="flex justify-center">

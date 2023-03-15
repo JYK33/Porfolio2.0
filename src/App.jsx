@@ -1,11 +1,11 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import Sidenav from "./components/Sidenav";
 import Main from "./components/Home";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About";
-// changes 
+// changes
 function App() {
   return (
     <div>

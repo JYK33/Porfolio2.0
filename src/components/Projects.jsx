@@ -14,10 +14,10 @@ const Projects = () => {
         assumenda.{" "}
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={tuneinImg2} title="TuneIn Blog" />
-        <ProjectItem img={quizImg} title="Quiz App" />
-        <ProjectItem img={susImg} title="Surfs Up Surf-Report" />
-        <ProjectItem img={noteImg2} title="Note Taker" />
+        <a href="https://github.com/JYK33/Tune-In"> <ProjectItem img={tuneinImg2} title="TuneIn Blog" /> </a>
+        <a href="https://github.com/JYK33/Creating-a-quiz"> <ProjectItem img={quizImg} title="Quiz App" /> </a>
+        <a href="https://github.com/JYK33/Surfs-Up-Surf-Report"> <ProjectItem img={susImg} title="Surfs Up Surf-Report" /> </a>
+        <a href="https://github.com/JYK33/Express-Js-Note-Taker"> <ProjectItem img={noteImg2} title="Note Taker" /> </a>
       </div>
     </div>
   );
