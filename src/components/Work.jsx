@@ -34,12 +34,12 @@ const data = [
   },
 ];
 
-// try to change color of back ground here ?
+// try to change color of back ground here ? md:pl-20
 const Work = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div id="work" className="max-w-[1040px] m-auto p-4 py-16">
       {/* change color of text here */}
-      <h1 className="text-black text-4xl font-bold text-center mb-5">WORK</h1>
+      <h1 className="text-black text-4xl font-bold flex flex-col text-center mb-20 ">EXPERIENCE</h1>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}
