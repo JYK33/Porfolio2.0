@@ -23,7 +23,7 @@ const About = () => {
             Hello, my name is John Kang.
           </h2>
 
-          <p className="text-black mb-9 mx-28 text-base leading-relaxed text-left">
+          <p className="mb-9 mx-28 text-base leading-relaxed text-left">
             I am a web developer based in Irvine, California. I specialize in
             creating seamless user experiences that solve complex problems and
             drive results. With proficiency in frameworks and programming
