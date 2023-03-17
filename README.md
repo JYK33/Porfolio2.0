@@ -7,7 +7,7 @@
  
 
 ## Description <a id="description"></a>
-The Text editor will allow users to create notes with and without internet connection. The texts will be saved and can be retrieved at a later time.
+This application is a portfoilo where users can find details about me as well as my experiences and links to past projects. This application was created with Tailwind, Vite, and React. 
 ## Installation <a id="installation"></a>
 Clone the repository and install dependencies with `npm i`. Too spin up the server locally `npm run dev` in the terminal.
 ## Link to deployed app <a id="link"></a>: https://main--jyk33.netlify.app/#main
